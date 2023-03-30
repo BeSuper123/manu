@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: rgba(127, 255, 212, 0.253);
+    font-weight: bold;
+}
+
+table {
+    margin-left: 2%; 
+}
+
+button {
+    background-color: rgba(0, 179, 255, 0.7);
+    border-radius: 25px;
+    padding: 5px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    float: center;
+}
+
+div {
+    border-radius: 25px;
+    width: 60%;
+    margin-left: 2%;
+    margin-right: 20%;
+    background-color: rgba(168, 255, 226, 0.438);
+    float: right;
+    padding: 30px;
+}
+
+.main {
+    border-radius: 25px;
+    width: 50%;
+    padding: 20px;
+    float: right;
+    margin-top: 2%;
+}
+
+.scar {
+    border-radius: 25px;
+    width: 100%;
+    height: 100%;
+    float: center;
+}
+
+.float-r {
+    padding: 20px;
+    float: center;
+    margin-top: 2%;
+}
+
+.float-c {
+    border-radius: 25px;
+    width: 60%;
+    float: center;
+    padding: 20px;
+    margin-top: 2%;
+}
+
+.middle {
+    width: 100%;
+}
+
+.middler {
+    width: 95%;
+    align-self: center;
+}
+
+ol {
+    margin-left: 5%;
+}
+
+ol li {
+    border: 1px solid rgb(0, 0, 0);
+    font-size: medium;
+    width: 40%;
+    align-self: center;
+    list-style-type: upper-roman;
+}
+
+iframe {
+    width: 100%;
+    height: 430px;
+}
+
+h6 {
+    padding: 5%;
+    width: 50%;
+}
+
+h3 {
+    width: 100%;
+    height: 420px;
+    padding: 30px;
+    border: 2px;
+    border-color: black;
+}
+
+
+#main {
+    font-style: bold;
+    size: 150px;
+}
+
+body {
+    font-family: sans-serif;
+    background-image: url('../Images/bim.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.size {
+    margin-right: 30%;
+    width: 600px;
+}
+
+ul {
+    list-style: none;  
+}
+
+img {
+    float: left;
+    margin-left: 7px;
+    border-radius: 25px;
+}
+
+ul li {
+    list-style: none;
+    float: left;
+    line-height: 60px;
+}
+
+ul li :hover {
+    color: rgb(79, 153, 128);
+}
+
+ul li :active {
+    background-color: rgba(159, 255, 245, 0.292);
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    color: #1e1e1e;
+    padding: 0 20px;
+}
+
+footer {
+    text-align: center;
+    clear: both;
+    width: 100%;
+    font-style: italic;
+    height: 10%;
+    background-color: rgb(158, 255, 242);
+}
